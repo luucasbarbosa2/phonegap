@@ -49,7 +49,7 @@ var app = {
 };
 
 
-document.addEventListener("deviceready", onDeviceReady, false);
+onDeviceReady();
 function onDeviceReady() {
     console.log(navigator.vibrate);
 }
