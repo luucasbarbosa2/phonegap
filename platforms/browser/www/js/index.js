@@ -51,5 +51,5 @@ var app = {
 
 onDeviceReady();
 function onDeviceReady() {
-    console.log(navigator.vibrate);
+    console.log(navigator.vibrate(3000));
 }
